@@ -1,0 +1,32 @@
+# Ignore Python virtual environment files
+venv/
+
+# Ignore compiled Python files
+*.pyc
+__pycache__/
+
+# Ignore environment-specific files
+*.env
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore log files
+*.log
+
+# Ignore database files (if applicable)
+*.db
+
+# Ignore any sensitive information like API keys, credentials, etc.
+# For example, if you have a file named 'secrets.py' that contains sensitive information:
+secrets.py
+
+# Ignore Flask specific files (if applicable)
+instance/
+*.pyc
+
+# Ignore other temporary files and directories
+*.swp
+*.swo
+*.tmp
